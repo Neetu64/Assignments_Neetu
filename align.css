@@ -1,0 +1,24 @@
+.flexbox {      
+    display: flex;
+    overflow: hidden;
+  }
+  .flexbox .col {
+    flex: 1;
+    padding: 20px;
+  }
+  .flexbox .col:nth-child(1) { 
+    background: #eee; 
+    order: 0;
+  }
+  .flexbox .col:nth-child(2) { 
+    background: #ccc;
+    order: 1;
+  }
+  .flexbox .col:nth-child(3) { 
+    background: #eee;
+    order: 2;
+  }
+  
+  body {
+    padding: 20px;
+  }
